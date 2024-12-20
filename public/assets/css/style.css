@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.primary-green{
+    background-color: #19c719 !important;
+}
+
+.text-primary-green{
+    color:#19c719 !important;
+}
+
+/* Loader animation */
+#loader {
+    display: none; /* Hidden by default */
+}
+
+body.loading #loader {
+    display: flex; /* Display loader while loading */
+    overflow: hidden; /* Prevent scrolling while loading */
+}
